@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+
+    background-color: rgb(79, 148, 217);
+}
+section{
+
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+header{
+   text-align: center;
+    color: aliceblue;
+
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+
+}

@@ -3,7 +3,7 @@ function verificar () {
     var ano= data.getFullYear()
     var Fano = document.getElementById ('txtano')
     var res = document.getElementById ('res')
-    if (Fano.ariaValue.length == 0 || Number(Fano.value) > ano) {
+    if (Fano.Value.length == 0 || Number(Fano.value) > ano) {
         window.alert('[error] verifique os dados e tente novamente! ')
     } else {
         var fsex = document.getElementsByName('radsex')

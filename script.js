@@ -1,6 +1,6 @@
 function verificar () {
-    var data = new Date ()
-    var ano= data.getFullYear ()
+    var data = new Date()
+    var ano= data.getFullYear()
     var Fano = document.getElementById ('txtano')
     var res = document.getElementById ('res')
     if (Fano.ariaValue.length == 0 || Number(Fano.value) > ano) {
